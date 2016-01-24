@@ -7,6 +7,7 @@ android {
     defaultConfig {
         applicationId "com.example.kitcat.kitcat"
         minSdkVersion 23
+        multiDexEnabled true
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -28,6 +29,6 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
-    compile 'com.firebase:firebase-client-android:2.5.0+'
     compile files('libs/firebase-client-android-2.5.0.jar')
+    compile files('libs/universal-image-loader-1.9.5.jar')
 }
