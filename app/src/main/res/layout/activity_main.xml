@@ -51,4 +51,16 @@
         android:layout_alignEnd="@+id/catUp"
         android:enabled="false" />
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/finalResults"
+        android:layout_above="@+id/nextButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="66dp"
+        android:visibility="invisible"
+        android:background="#9c9c9c" />
+
 </RelativeLayout>
